@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> Basic Web Techniques </title>
+</head>
+<body>
+    <h1 align="center"> Introduction </h1>
+    <h2> World Wide Web </h2>
+    <ol>
+        <p>
+            <li>
+                <strong> What are the most essential technologies that made the World Wide Web such a success? </strong>
+            </li> 
+            The most essential technologies are HTML, URL and HTTP.
+        </p>
+
+        <p>
+            <li>
+                <strong> How are resources (html pages, images, etc) addressed in the web? </strong>
+            </li>
+            Resources are addressed with URI.
+        </p>
+
+        <p>
+            <li>
+                <strong> What are the general components of a url? </strong>
+            </li>
+            The URL consists of a hierarchical sequence of five components: sheme, authority, path, query and fragment.
+        </p>
+    </ol>
+
+    <h2> Web Server </h2>
+    <ol>
+        <p>
+            <li>
+                <strong> What is a web server? </strong>
+            </li> 
+            A web server is computer software and underlying hardware that accepts requests via HTTP.
+        </p>
+
+        <p>
+            <li>
+                <strong> What does a web server? </strong>
+            </li>
+            A user agent, commonly a web browser, initiates communication by making a request for a web page or other resource using HTTP, and the server responds with the content of that resource.
+        </p>
+
+        <p>
+            <li>
+                <strong> How can content be stored on a web server? </strong>
+            </li>
+            The web space is a hard disk, on which web content is stored and this must be connected to the web server.
+        </p>
+
+        <p>
+            <li>
+                <strong> How is content in webpages described? </strong>
+            </li>
+            Page content refers to all the information contained in a website. Page content can be displayed as text, links, images, audio, animation or videos among other things.
+        </p>
+    </ol>
+
+    <h2> Web Client </h2>
+    <ol>
+        <p>
+            <li>
+                <strong> What is a web client? </strong>
+            </li> 
+            A web browser is application software for accessing the World Wide Web or a local website.
+        </p>
+
+        <p>
+            <li>
+                <strong> What does a web client? </strong>
+            </li>
+            When a user requests a web page from a particular website, the web client retrieves its files from a web server and then graphically renders the page on the user's screen.
+        </p>
+
+        <p>
+            <li>
+                <strong> Web Client and Web Browser is the same? </strong>
+            </li>
+            The web browser acts as an interface between the server and the client and displays a web document to the client.
+        </p>
+    </ol>
+
+    <h2> Hello World </h2>
+    <ol>
+        <p>
+            <li>
+                <strong> What is the html head element? </strong>
+            </li> 
+            The head element is a container for metadata. Metadata is data about the HTML document. Metadata typically define the document title, character set, styles, scripts, and other meta information.
+        </p>
+
+        <p>
+            <li>
+                <strong> What does !DOCTYPE html mean? </strong>
+            </li>
+            All HTML documents must start with a !DOCTYPE declaration. It is an information to the browser about what document type to expect.
+        </p>
+
+        <p>
+            <li>
+                <strong> What are the two top most elements within the html element? </strong>
+            </li>
+            The two top most elements within the html element are head and body.
+        </p>
+
+        <p>
+            <li>
+                <strong> How to emphasize a text and how is it displayed in the browser? </strong>
+            </li>
+            The em tag is used to define emphasized text. The content in the browser is typically displayed in italic.
+        </p>
+
+        <p>
+            <li>
+                <strong> How to mark up important text and how is it displayed in the browser? </strong>
+            </li>
+            The strong tag is used to define text with strong importance. The content in the browser is typically displayed in bold.
+        </p>
+    </ol>
+
+    <h1 align="center"> Html and a first look into Css</h1>
+    <h2> Html </h2>
+    <ol>
+        <p>
+            <li>
+                <strong> Components of html elements </strong>
+            </li>
+            The components of html elements are Start-Tag, maybe an Attribute, element content and End-Tag.
+        </p>
+
+        <p>
+            <li>
+                <strong> Identify void elements and how they are denoted </strong>
+            </li>
+            HTML elements with no content are called void elements. It is closed in its Start-Tag, seen by the slash at the end. The slash can also be omitted. An example is br.
+        </p>
+
+        <p>
+            <li>
+                <strong> Identify attributes </strong>
+            </li>
+            Attributes provide additional information about elements. All HTML elements can have them. Attributes are always specified in the start tag.
+        </p>
+
+        <p>
+            <li>
+                <strong> The correct DOCTYPE declaration for html 5 </strong>
+            </li>
+            The DOCTYPE declaration for html 5 is < !DOCTYPE html>
+        </p>
+
+        <p>
+            <li>
+                <strong> Write down syntactically correct statements for the following elements </strong>
+            </li>
+
+            <ul>
+                <li>
+                    <strong> Article </strong> <br>
+                </li>
+                The article tag specifies independent, self-contained content.
+                <li>
+                    <strong> Body </strong> <br>
+                </li>
+                The body tag defines the document's body. It contains all the contents of an HTML document, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
+                <li>
+                    <strong> line break </strong> <br>
+                </li>
+                The br tag inserts a single line break.
+                <li>
+                    <strong> Headings </strong> <br>
+                </li>
+                HTML headings are defined with the h1 to h6 tags. h1 defines the most important heading. h6 defines the least important heading.
+                <li>
+                    <strong> Section with meta-information </strong> <br>
+                </li>
+                The meta tag defines metadata about an HTML document. Metadata is data (information) about data. It define the document title, character set, styles, scripts, and other meta information.
+                <li>
+                    <strong> Top level element </strong> <br>
+                </li>
+                The html element is the root element and it defines the whole HTML document.
+                <li>
+                    <strong> Image named Team.jpg </strong> <br>
+                </li>
+                The HTML img tag is used to embed an image in a web page. Example: < img src="Team.jpg">
+                <li>
+                    <strong> Paragraph </strong> <br>
+                </li>
+                The HTML p element defines a paragraph. A paragraph always starts on a new line, and browsers automatically add some white space (a margin) before and after a paragraph.
+                <li>
+                    <strong> Section </strong> <br>
+                </li>
+                The section tag defines a section in a document.
+                <li>
+                    <strong> Label appearing in the title bar </strong> <br>
+                </li>
+                The title tag defines the title of the document. The title must be text-only, and it is shown in the browser's title bar or in the page's tab.
+                <li>
+                    <strong> Link to other pages </strong> <br>
+                </li>
+                The HTML a tag defines a hyperlink. Most important attribute of the a element is the href attribute, which indicates the link's destination.
+                <li>
+                    <strong> Comment </strong> <br>
+                </li>
+                You can add comments with < !--...-->
+                <li>
+                    <strong> Head with title and meta elements </strong> <br>
+                </li>
+                The head element is a container for metadata (data about data). It is a container for the following elements: title, style, meta, link, script, and base.
+            </ul>
+        </p>
+    </ol>
+
+    <h2> Css </h2>
+    <ol>
+        <p>
+            <li>
+                <strong> Components of a css rule </strong>
+            </li>
+            The components of a css rule are a selector, property and value.
+        </p>
+
+        <p>
+            <li>
+                <strong> Use combinators properly: direct child, descendant, adjacent sibling, sibling </strong>
+            </li>
+            descendant example: div p { background-color: yellow; }, it selects all p elements inside div elements <br>
+            direct child example: div > p { background-color: yellow; }, it selects all p elements that are children of a div element <br>
+            adjacent sibling example: div + p { background-color: yellow; }, it selects the first p element that are placed immediately after div elements <br>
+            sibling example: div ~ p { background-color: yellow; }, it selects all p elements that are next siblings of div elements
+        </p>
+
+        <p>
+            <li>
+                <strong> Specify colors by color names and in hexadecimal notation </strong>
+            </li>
+            Tomato in HEX #ff6347, Blue in HEX #0000FF, Cyan in HEX #00FFFF, Green in HEX #008000,....
+        </p>
+
+        <p>
+            <li>
+                <strong> Declarations for color, background color </strong>
+            </li>
+            The color property is used to set the color of the text. Example: color: blue; You can use many different colors.<br>
+            The background-color property specifies the background color of an element. Example: background-color: lightblue; You can use many different colors.
+        </p>
+
+        <p>
+            <li>
+                <strong> Pseudo classes for the a element </strong>
+            </li>
+            Links can be displayed in different ways, for example: 
+            a:link {
+                color: red;
+              }
+            Link stands for unvisited link and you can also use visited(visted link), hover(mouse over link) and active(selected link). Of course you can take a different color for everything.
+        </p>
+
+        <p>
+            <li>
+                <strong> Declaration for background image </strong>
+            </li>
+            The background-image property specifies an image to use as the background of an element. Example: background-image: url("paper.gif");
+        </p>
+
+        <p>
+            <li>
+                <strong> Declaration for text alignment (left, right, center, justify) </strong>
+            </li>
+            The text-align property is used to set the horizontal alignment of a text. Example: text-align: center; You can also use right, left and justify.
+        </p>
+
+        <p>
+            <li>
+                <strong> Declaration for text decoration (overline, underline, line-through) </strong>
+            </li>
+            The text-decoration-line property is used to add a decoration line to text. Example: text-decoration-line: overline; You can also use underline and line-through.
+        </p>
+
+        <p>
+            <li>
+                <strong> Declaration for text transformation (uppercase, lowercase, capitalize) </strong>
+            </li>
+            The text-transform property is used to specify uppercase and lowercase letters in a text. Example: text-transform: uppercase; You can also use lowercas and capitalize.
+        </p>
+
+        <p>
+            <li>
+                <strong> Identify the difference between serif and sans-serif fonts </strong>
+            </li>
+            Sans-serif fonts have clean lines and Serif fonts have a small stroke at the edges of each letter.
+        </p>
+
+        <p>
+            <li>
+                <strong> Declarations for font families </strong>
+            </li>
+            We use the font-family property to specify the font of a text. Example: font-family: Arial; There are many different font-familys.
+        </p>
+
+        <p>
+            <li>
+                <strong> Declarations for font style normal and italic </strong>
+            </li>
+            The text is shown normally: font-style: normal; <br>
+            The text is shown in italics: font-style: italic;
+        </p>
+
+        <p>
+            <li>
+                <strong> Declarations for font sizes </strong>
+            </li>
+            The font-size property sets the size of the text. Example: font-size: 40px; You can use different font-sizes.
+        </p>
+
+        <p>
+            <li>
+                <strong> Declarations for font weights </strong>
+            </li>
+            The font-weight property sets how thick or thin characters in text should be displayed. Example: font-weight: bold; You can also take 700 instead of bold and other font-weights.
+        </p>
+    </ol>
+
+    <h1 align="center"> Lists and Tables </h1>
+    <h2> Html for Lists </h2>
+    <ol>
+        <p>
+            <li>
+                <strong> Start tags for </strong>
+            </li> 
+            <ul>
+                <li>
+                    <strong> an ordered list </strong> <br>
+                </li>
+                &lt;ol&gt;
+                <li>
+                    <strong> an unordered list </strong> <br>
+                </li>
+                &lt;ul&gt;
+                <li>
+                    <strong> a description list </strong> <br>
+                </li>
+                &lt;dl&gt;
+                <li>
+                    <strong> a list item </strong> <br>
+                </li>
+                &lt;li&gt;
+                <li>
+                    <strong> a description term </strong> <br>
+                </li>
+                &lt;dt&gt;
+                <li>
+                    <strong> a description data </strong> <br>
+                </li>
+                &lt;dd&gt;
+            </ul>
+        </p>
+    </ol>
+
+    <h2> Css for Lists </h2>
+    <ol>
+        <p>
+            <li>
+                <strong> Start tags for </strong>
+            </li> 
+        </p>
+    </ol>
+</body>
+</html>
