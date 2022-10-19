@@ -366,9 +366,39 @@
     <ol>
         <p>
             <li>
-                <strong> Start tags for </strong>
-            </li> 
+                <strong> Make bullet a square </strong>
+            </li>
+            list-style-type: square;
         </p>
+
+        <p>
+            <li>
+                <strong> Make bullet an image named "my-bullet.png" </strong>
+            </li>
+            list-style-image: url("my-bullet.png");
+        </p>
+
+        <p>
+            <li>
+                <strong> Make bullet an uppercase roman number </strong>
+            </li>
+            list-style-type: upper-roman;
+        </p>
+
+        <p>
+            <li>
+                <strong> Set bullet position to be inside the list item's text flow </strong>
+            </li>
+            list-style-position: inside;
+        </p>
+
+        <p>
+            <li>
+                <strong> Set bullet position to be outside the list item's text flow </strong>
+            </li>
+            list-style-position: outside;
+        </p>
+
     </ol>
 
     <h2> Html for Tables </h2>
@@ -409,7 +439,7 @@
                 <li>
                     <strong> a table footer cell </strong>
                 </li>
-                &lt;&gt;
+                &lt;td&gt;
             </ul>
         </p>
     </ol>
@@ -420,18 +450,22 @@
             <li>
                 <strong> Black dotted border of 1 px width </strong>
             </li>
-            table, th, td { <br>
-                border: 1px dotted; <br>
-            }
+            border: 1px dotted; <br>
         </p>
 
         <p>
             <li>
                 <strong> Solid border of 1 px width having a red color and rounded corners </strong>
             </li>
-            table, th, td { <br>
-                border: 1px solid red;
-            }
+            border: 1px solid red; <br>
+            border-radius: 15px;
+        </p>
+
+        <p>
+            <li>
+                <strong> Merge the borders of table cells so that they appear as one line </strong>
+            </li>
+            border-collapse: collapse; <br>
         </p>
     </ol>
 </body>
